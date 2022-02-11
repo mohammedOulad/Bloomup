@@ -1,0 +1,18 @@
+<%- include('header'); %>
+
+<h1>delete user</h1>
+
+    <p>
+    <span><b>userid : </b><%= userid %></span><br />
+    <span><b>email : </b><%= email %></span><br/>
+    <span><b>password : </b><%= password %></span><br />
+   </p>
+
+<form action='/exam/delete' method='POST' onsubmit="return confirm('Bent U zeker?');">
+    <span><input type='hidden' name='id' value='<%= userid %>'></span>
+    <span><button type='submit'>Delete</button></span>
+  </form>
+
+    </body>
+
+    </html>
