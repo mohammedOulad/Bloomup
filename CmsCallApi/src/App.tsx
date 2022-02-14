@@ -8,7 +8,6 @@ import Homepage from "./Compentent/Homepage/Homepage";
 import KeystoneJs from "./Compentent/ProsAndCons/KeystoneJs";
 import Prismic from "./Compentent/ProsAndCons/Prismic";
 import Strapi from "./Compentent/ProsAndCons/Strapi";
-import Mood from "./Compentent/strapi/Mood";
 import PersonStrapi from "./Compentent/strapi/Person";
 import PersonPrismic from "./Compentent/Prismic/Person";
 import PersonContentful from "./Compentent/Contentful/Person"
@@ -27,7 +26,6 @@ function App() {
           </Route>
           <Route exact path="/strapi/fetch">
             <PersonStrapi />
-            <Mood />
           </Route>
           <Route exact path="/prismic">
             <Prismic />

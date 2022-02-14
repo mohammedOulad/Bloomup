@@ -33,10 +33,9 @@ function Person() {
       {!loading ? (
         <div>
           {data.map((i: any) => (
-            <div>
-              <h3>{i.attributes.name}</h3>
-              <h3>{i.attributes.age}</h3>
-              <label>{i.attributes.sad}</label>
+            <div key= {i.id}>
+              <h3>name: {i.attributes.Name}</h3>
+              <h3>age: {i.attributes.Age}</h3>
             </div>
           ))}
         </div>

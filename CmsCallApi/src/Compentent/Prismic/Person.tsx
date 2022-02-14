@@ -17,8 +17,8 @@ function Person() {
   return (
     <div>
       <div>
-        {/* <h1>People from Prismic</h1>
-        {state === "loading" ? <p>Loading...</p> : document?.data.name} */}
+         <h1>People from Prismic</h1>
+       {/* {state === "loading" ? <p>Loading...</p> : document?.data.name} */}
       </div>
       {JSON.stringify(document?.data)}
     </div>
