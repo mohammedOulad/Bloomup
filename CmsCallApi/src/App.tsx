@@ -11,6 +11,7 @@ import Strapi from "./Compentent/ProsAndCons/Strapi";
 import Mood from "./Compentent/strapi/Mood";
 import PersonStrapi from "./Compentent/strapi/Person";
 import PersonPrismic from "./Compentent/Prismic/Person";
+import PersonContentful from "./Compentent/Contentful/Person"
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route exact path="/contentful">
             <Contentful />
+          </Route>
+          <Route exact path="/contentful/fetch">
+            <PersonContentful />
           </Route>
           <Route exact path="/keystonejs">
             <KeystoneJs />

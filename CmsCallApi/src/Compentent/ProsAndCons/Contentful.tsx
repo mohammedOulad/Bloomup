@@ -1,24 +1,28 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Contentful() {
-    return (
-        <div>
-            <h1 style={{ textAlign:"center"}}>Contentful cms</h1>
-          <h1>pros</h1>
-          <li>- Supports use of Next.js & React.js with GraphQl</li>
-          <li>- Supports switching languages</li>
-          <li>- user friendly interface</li>
-          <li>- up to date</li>
-          <li>- 5 user roles</li>
-          <li>- **Preview Content**</li>
-          <li>- **Enterprise Trial** aanvragen</li>
-    
-          <h1>cons</h1>
-          <li> - not user friendly</li>
-          <li>- Does not supports switching languages</li>
-          <li>- Not easy Quick start </li>
-        </div>
-      );
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>Contentful cms</h1>
+      <div style={{ textAlign: "center" }}>
+        <Link to="/contentful/fetch">apiData</Link>
+      </div>
+      <h1>pros</h1>
+      <li>- Supports use of Next.js & React.js with GraphQl</li>
+      <li>- Supports switching languages</li>
+      <li>- user friendly interface</li>
+      <li>- up to date</li>
+      <li>- 5 user roles</li>
+      <li>- **Preview Content**</li>
+      <li>- **Enterprise Trial** aanvragen</li>
+
+      <h1>cons</h1>
+      <li> - not user friendly</li>
+      <li>- Does not supports switching languages</li>
+      <li>- Not easy Quick start </li>
+    </div>
+  );
 }
 
-export default Contentful
+export default Contentful;
