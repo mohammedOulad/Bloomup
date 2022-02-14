@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import useFetch from "../hooks/useFetch";
 
+interface useeffectProps {
+  data: any[],
+  loading: boolean
+}
+
 function Person() {
-  //const { data }:any = useFetch("http://localhost:1337/api/people");
+  // const { data , loading} : useeffectProps = useFetch("http://localhost:1337/api/people");
 
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
