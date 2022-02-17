@@ -8,5 +8,6 @@ function printInfo() {
 }
 
 const something = printInfo.call(person)
+//bind call en apply nog maken
 
 console.log(something);

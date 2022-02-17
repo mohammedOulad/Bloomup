@@ -10,4 +10,7 @@ const Person = {
     }
   }
 
-console.log(Person.info());
+  
+console.log(something);
+//console.log(Person.info());
+//nakijken van classen

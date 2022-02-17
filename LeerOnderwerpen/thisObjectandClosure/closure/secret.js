@@ -1,4 +1,5 @@
 let secret = "not secret";
+
 function startPrivate(secret) {
     return {
         makePrivate() {
