@@ -11,6 +11,4 @@ const Person = {
   }
 
   
-console.log(something);
-//console.log(Person.info());
-//nakijken van classen
+console.log(Person.info());

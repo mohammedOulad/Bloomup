@@ -18,9 +18,9 @@ export default meta;
 
 const Template: Story<Props> = (args) => <Button {...args} />;
 
-export const Default: Story<Props> = (args) => <Button {...args} />;
+export const Default = Template.Bind({});
 
-export const Secondary: Story<Props> = (args) => <Button {...args} />;
+export const Secondary = Template.Bind({});
 
 export const Warning = Template.bind({backgroundColor: "yellow"}) ;
 
